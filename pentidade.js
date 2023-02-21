@@ -1,9 +1,5 @@
-class Pentidade{
-  keyPressed() {
+class Pentidade {
+  keyPressed() {}
 
-  }
-
-  keyTyped() {
-
-  }
+  keyTyped() {}
 }

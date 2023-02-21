@@ -1,26 +1,26 @@
-class StateMachine{
+class StateMachine {
   constructor(scenes) {
-    this.currentScene = {}
-    this.scenes = scenes
+    this.currentScene = {};
+    this.scenes = scenes;
   }
 
   setup() {
-    this.scenes.forEach((scene) => scene.setup())
+    this.scenes.forEach((scene) => scene.setup());
   }
 
   draw() {
-    this.currentScene.draw()
+    this.currentScene.draw();
   }
 
   keyPressed() {
-    this.currentScene.keyPressed()
+    this.currentScene.keyPressed();
   }
 
   keyTyped() {
-    this.currentScene.keyTyped()
+    this.currentScene.keyTyped();
   }
 
   setScene(sceneKey) {
-    this.currentScene = this.scenes.get(sceneKey)
+    this.currentScene = this.scenes.get(sceneKey);
   }
 }

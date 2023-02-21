@@ -1,17 +1,17 @@
-const mapMakerDemo = new Togue()
+const mapMakerDemo = new Togue();
 
 function setup() {
-  mapMakerDemo.setup()
+  mapMakerDemo.setup();
 }
 
 function keyPressed() {
-  mapMakerDemo.keyPressed()
+  mapMakerDemo.keyPressed();
 }
 
 function keyTyped() {
-  mapMakerDemo.keyTyped()
+  mapMakerDemo.keyTyped();
 }
 
 function draw() {
-  mapMakerDemo.draw()
+  mapMakerDemo.draw();
 }
