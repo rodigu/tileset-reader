@@ -19,8 +19,9 @@ class Tileset {
     this.yZero = yZero;
   }
 
-  drawTile(n, x, y, size) {
+  drawTile(n, x, y, size, imageModeString) {
     let { tileX, tileY } = this.tileNumToPos(n);
+    imageMode(imageModeString);
     image(
       this.source,
       x,
